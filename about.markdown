@@ -4,15 +4,14 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+My name is Vicente Manuel Muñoz Milchorena.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I am a Historian by training, an IT Professional from 15 years of experience,
+and an author of several books (none of which have my name, but that is the
+trade of a ghost writer).
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Here you will find some of the texts that I have written across many years,
+all of them are delivered as-is, some have been revised, some are as raw
+as they come.
 
-
-[jekyll-organization]: https://github.com/jekyll
+Enjoy.
