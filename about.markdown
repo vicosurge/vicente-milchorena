@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+# Who am I?
+
 My name is Vicente Manuel Muñoz Milchorena.
 
 I am a Historian by training, an IT Professional from 15 years of experience,
@@ -18,21 +20,37 @@ Enjoy.
 
 ---
 
-Curriculum Vitae
+# Curriculum Vitae
 
 Vicente Manuel Muñoz Milchorena
 
 **Tijuana, México**
+
 E-mail: vicente[at]milchorena.com
+
 LinkedIn: [linkedin.com/in/vicente-milchorena](https://www.linkedin.com/in/vicente-milchorena/)
+
 GitHub: [github.com/vicosurge](https://github.com/vicosurge/)
+
 
 ---
 ## Profile
 
-Currently specializing in InfoSec with a focus on MSSP, I bring extensive experience from pentesting Fortune 100 companies and supporting businesses with thousands of users and millions of customers. In my role as an IT Manager, I am honing my leadership and management skills while empowering my team to reach their professional and personal goals. I prioritize fostering a supportive environment where continuous learning and open communication are encouraged.
+I am dedicated to my continuous personal and professional growth at the 
+intersection of the social sciences and technology, with a primary focus on 
+using education to enrich the humanities. My goal is to leverage technology 
+and innovative methods to reach wider audiences, fostering a deeper 
+understanding of culture and history.
 
-My passion extends beyond InfoSec to history and the humanities, where I focus on documentation and teaching. This interest not only enriches my approach to compliance and audits but also drives my commitment to educating others on accurate historical facts and cultural knowledge. My goal is to grow as a leader and contribute to the professional development of others while bridging my diverse interests with my career in technology.
+I aim to understand my clients' needs and provide efficient, scalable 
+cybersecurity solutions that safeguard their assets while minimizing downtime 
+and risk.
+
+As I continue my journey to becoming a full-fledged historian, I am 
+passionate about contributing to the field through teaching, community 
+involvement, and research. I seek to engage in social and government projects 
+that promote cultural heritage and regional history, while exploring fresh 
+perspectives and unrecognized subjects in historical research.
 
 ---
 ## Experience
