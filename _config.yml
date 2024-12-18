@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Vicente Manuel Muñoz Milchorena
+repository: vicosurge/vicente-milchorena
 email: vicente@milchorena.com
 logo: assets/3.png
 description: >- # this means to ignore newlines until "baseurl:"
