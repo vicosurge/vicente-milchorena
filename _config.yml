@@ -20,19 +20,23 @@
 
 title: Vicente Manuel Muñoz Milchorena
 email: vicente@milchorena.com
+logo: assets/3.png
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the personal website for Vicente Manuel Muñoz Milchorena,
-  where texts and stories can be found.
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://vicente.milchorena.com" # the base hostname & protocol for your site, e.g. http://example.com
-linkedin_username: vicente-milchorena
-github_username:  vicosurge
+  I am a Historian by training, an IT Professional from 15 years of experience,
+  and an author of several books (none of which have my name, but that is the
+  trade of a ghost writer).
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
-
+#remote_theme: pages-themes/minimal@v0.2.0
+#plugins:
+#- jekyll-remote-theme # add this line to the plugins list if you already have one
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
