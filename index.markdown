@@ -7,7 +7,7 @@ Vicente Manuel Muñoz Milchorena
 
 **Tijuana, Baja California, México**
 
-E-mail: vicente[at]milchorena.com
+E-mail: vicente[dot]munoz[at]milchorena[dot]com
 
 LinkedIn: [linkedin.com/in/vicente-milchorena](https://www.linkedin.com/in/vicente-milchorena/)
 
