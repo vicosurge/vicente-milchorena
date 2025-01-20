@@ -62,13 +62,13 @@ Leading a dynamic team of diverse IT professionals, leveraging a wide range of b
 
 **Technologies:** Proxmox, TP-Link, Elastic Stack, Wazuh, Zabbix, Zoho, Vicidial, Windows Administration, Linux, AWS, Google Workspace, SonicWALL, GVM, PHP, MySQL, VB6
 
-**DFIR Consultant, Nearshore Cyber** | *January 2023 – CURRENT*
+**DFIR Consultant, Nearshore Cyber** | *JANUARY 2023 – CURRENT*
 
 Responding to Incidents from different clients involves attending the Incident, performing the investigation and mitigation, building a plan for setting the business back in motion, and ensuring that there are clear post-mitigation tasks that the client can follow up on.
 
 **Skills:** Security Incident Response, Digital Forensics, Vulnerability Assessment and Penetration Testing (VAPT), Vulnerability Management and Remediation
 
-**Freelance Information Technology / Cybersecurity Consultant** | *January 2020 - CURRENT*
+**Freelance Information Technology / Cybersecurity Consultant** | *JANUARY 2020 - CURRENT*
 
 Provide comprehensive services to clients globally, including:
 
