@@ -38,6 +38,14 @@ perspectives and unrecognized subjects in historical research.
 
 **DECEMBER 2024 - CURRENT** | *Senior Security Systems Engineer, EPAM Systems*
 
+**Key responsibilities include:**
+- Configure SIEM and SOAR solutions, ensuring seamless integration with various security tools, systems, and data sources; Conduct SIEM and SOAR testing and validation
+- Develop detection use-cases and implement SIEM detection rules; Develop SOAR remediation use-cases; Create, test, and update SOAR playbooks to streamline security operations
+- Integrate log sources with SIEM, optimize log ingestion and processing; Perform threat hunting, data enrichment, threat intelligence feeds onboarding, and utilize them for automated responses
+- Generate reports for both technical and non-technical staff and stakeholders
+- Stay up-to-date with SIEM technologies and identify opportunities for continuous improvement
+
+
 **MAY 2024 – DECEMBER 2024** | *IT Manager, Baja Call Center*
 
 Leading a dynamic team of diverse IT professionals, leveraging a wide range of backgrounds and expertise to ensure smooth and efficient operations. Committed to providing top-tier assistance and support, fostering a collaborative and innovative work environment.
