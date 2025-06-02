@@ -156,6 +156,7 @@ Courses focused on world history, Mexican history, regional history, and relatio
 ---
 ## Certifications
 
+- [Microsoft Certified: Azure Fundamentals](https://learn.microsoft.com/en-us/users/vicentemanuelmuozmilchorena-2744/credentials/c5bac73c324f0b47)
 - Torq 101
 - Torq Automation Analyst
 - Splunk Certified User (6.x)
