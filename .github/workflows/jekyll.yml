@@ -1,10 +1,5 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll site to Pages
+# This workflow builds and deploys a Jekyll site to GitHub Pages and generates a PDF version
+name: Deploy Jekyll site to Pages with PDF
 
 on:
   # Runs on pushes targeting the default branch
@@ -16,7 +11,7 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: write  # Changed from 'read' to 'write' to allow PDF commits
   pages: write
   id-token: write
 
@@ -33,23 +28,98 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
       - name: Setup Ruby
-        # https://github.com/ruby/setup-ruby/releases/tag/v1.207.0
         uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
         with:
-          ruby-version: '3.1' # Not needed with a .ruby-version file
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
+          ruby-version: '3.1'
+          bundler-cache: true
+          cache-version: 0
+          
+      - name: Configure Bundler for GitHub Actions
+        run: |
+          bundle config set --local deployment false
+          bundle config set --local path vendor/bundle
+          
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+        
       - name: Build with Jekyll
-        # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        run: |
+          bundle install
+          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
-      - name: Upload artifact
-        # Automatically uploads an artifact from the './_site' directory by default
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Setup Node.js for PDF generation
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Install Puppeteer
+        run: npm install puppeteer
+        
+      - name: Generate PDF
+        run: |
+          node -e "
+          const puppeteer = require('puppeteer');
+          const fs = require('fs');
+          const path = require('path');
+          
+          (async () => {
+            const browser = await puppeteer.launch({
+              headless: true,
+              args: ['--no-sandbox', '--disable-setuid-sandbox']
+            });
+            
+            const page = await browser.newPage();
+            
+            // Load the built Jekyll site
+            const htmlPath = path.join(process.cwd(), '_site/index.html');
+            const htmlContent = fs.readFileSync(htmlPath, 'utf8');
+            
+            // Add PDF-specific styles and hide download button
+            const pdfHtml = htmlContent.replace(
+              '</head>', 
+              '<style>
+                body { font-family: \"Times New Roman\", serif; line-height: 1.4; color: #000; }
+                .pdf-download { display: none !important; }
+                h1 { font-size: 18pt; margin-bottom: 8pt; }
+                h2 { font-size: 14pt; margin-top: 16pt; margin-bottom: 8pt; border-bottom: 1pt solid #000; }
+                h3 { font-size: 12pt; margin-top: 12pt; margin-bottom: 6pt; }
+                p { margin-bottom: 6pt; text-align: justify; }
+                a { color: #000; text-decoration: none; }
+                hr { border: none; border-top: 1pt solid #000; margin: 16pt 0; }
+                ul, ol { margin-bottom: 8pt; padding-left: 20pt; }
+                li { margin-bottom: 3pt; }
+              </style></head>'
+            );
+            
+            await page.setContent(pdfHtml, { waitUntil: 'networkidle0' });
+            
+            await page.pdf({
+              path: '_site/vicente-munoz-cv.pdf',
+              format: 'A4',
+              margin: {
+                top: '1in',
+                right: '0.75in',
+                bottom: '1in',
+                left: '0.75in'
+              },
+              printBackground: true,
+              preferCSSPageSize: true
+            });
+            
+            await browser.close();
+            console.log('PDF generated successfully at _site/vicente-munoz-cv.pdf');
+          })();
+          "
+          
+      - name: Upload artifact (including PDF)
         uses: actions/upload-pages-artifact@v3
 
   # Deployment job
