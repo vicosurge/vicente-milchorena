@@ -191,19 +191,42 @@ h2::after {
   font-weight: 400;
 }
 
-/* Lists */
-ul {
-  margin-left: 1.5rem;
+/* Job Description and Lists */
+.job-description {
+  color: var(--secondary-color);
   margin-bottom: 1rem;
 }
 
-li {
+.job-description strong {
+  display: block;
+  margin-top: 0.75rem;
   margin-bottom: 0.5rem;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
-li::marker {
-  color: var(--accent-color);
+.job-entry ul {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
+}
+
+.job-entry li {
+  margin-bottom: 0.4rem;
+  color: var(--secondary-color);
+  line-height: 1.5;
+}
+
+/* Fix image issues */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Hide broken images */
+img[src=""], img:not([src]) {
+  display: none;
 }
 
 /* Links */

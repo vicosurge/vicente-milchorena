@@ -102,6 +102,10 @@ jobs:
                 .job-company { font-size: 12pt; font-weight: bold; display: inline; }
                 .job-duration { font-size: 11pt; color: #666; font-style: italic; float: right; }
                 .job-description { clear: both; color: #333; margin: 8pt 0; text-align: justify; }
+                .job-description strong { display: block; margin-top: 6pt; margin-bottom: 3pt; color: #000; }
+                
+                .job-entry ul { margin: 6pt 0 8pt 18pt; }
+                .job-entry li { margin-bottom: 3pt; color: #333; line-height: 1.4; }
                 
                 .skill-category { margin-bottom: 6pt; }
                 .skill-label { font-weight: bold; display: inline; margin-right: 4pt; }
