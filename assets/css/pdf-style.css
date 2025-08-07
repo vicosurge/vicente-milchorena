@@ -111,7 +111,10 @@
   }
 
   /* Hide web-only elements */
-  .pdf-download,
+  .pdf-download img { 
+    display: none !important; 
+  }
+
   .web-only {
     display: none !important;
   }
