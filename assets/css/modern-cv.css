@@ -118,58 +118,81 @@ h2::after {
   opacity: 0.3;
 }
 
-/* Job Title Headers (### headers) */
+/* Job Entry Styling - Create unified cards with proper spacing */
 h3 {
   font-size: 1.15rem;
   font-weight: 600;
   color: var(--primary-color);
-  margin-top: 2rem;
-  margin-bottom: 0.5rem;
-  padding-bottom: 0.25rem;
+  margin-top: 2.5rem;  /* More space above each job */
+  margin-bottom: 0;
+  padding: 1.2rem 1.5rem 0.8rem 1.5rem;  /* More padding inside cards */
   border-left: 4px solid var(--accent-color);
-  padding-left: 1rem;
   background: var(--section-bg);
-  padding: 1rem;
   border-radius: 8px 8px 0 0;
 }
 
 /* Job Duration (italicized text right after h3) */
-h3 + p em {
+h3 + p {
+  background: var(--section-bg);
+  padding: 0 1.5rem 0.5rem 1.5rem;  /* Padding for breathing room */
+  margin: 0;
   color: var(--text-light);
   font-style: italic;
   font-size: 0.9rem;
-  display: block;
-  margin-top: 0.25rem;
-  margin-bottom: 1rem;
 }
 
 /* Job Description Paragraphs */
-h3 + p {
-  background: var(--section-bg);
-  padding: 0 1rem;
-  margin: 0;
-  color: var(--secondary-color);
-}
-
 h3 + p + p {
   background: var(--section-bg);
-  padding: 0 1rem 1rem 1rem;
+  padding: 0.5rem 1.5rem;  /* Padding around description */
   margin: 0;
-  border-radius: 0 0 8px 8px;
+  color: var(--secondary-color);
+  line-height: 1.6;
+}
+
+/* Additional paragraphs in job entries */
+h3 ~ p {
+  background: var(--section-bg);
+  padding: 0.3rem 1.5rem;
+  margin: 0;
+  color: var(--secondary-color);
+  line-height: 1.6;
 }
 
 /* Bullet Lists */
-ul {
+h3 ~ ul {
   background: var(--section-bg);
-  padding: 0 1rem 1rem 3rem;
-  margin: 0 0 1rem 0;
+  padding: 0.5rem 1.5rem 0.5rem 3.5rem;  /* More padding around lists */
+  margin: 0;
+  list-style-type: disc;
+}
+
+/* Skills paragraphs (the last elements in job entries) */
+h3 ~ p:has(strong:contains("Skills:")),
+h3 ~ p:has(strong:contains("Technologies:")) {
+  background: var(--section-bg);
+  padding: 0.75rem 1.5rem 1.2rem 1.5rem;  /* Extra bottom padding */
+  margin: 0;
   border-radius: 0 0 8px 8px;
 }
 
+/* If there's no skills/tech section, make the last paragraph rounded */
+h3 ~ p:last-of-type:not(:has(strong)) {
+  padding-bottom: 1.2rem;
+  border-radius: 0 0 8px 8px;
+}
+
+/* If the last element is a list, make it rounded */
+h3 ~ ul:last-of-type {
+  padding-bottom: 1rem;
+  border-radius: 0 0 8px 8px;
+}
+
+/* General list styling */
 li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.6rem;  /* More space between bullets */
   color: var(--secondary-color);
-  line-height: 1.5;
+  line-height: 1.6;  /* Better line height */
 }
 
 li::marker {
@@ -181,25 +204,21 @@ p strong {
   color: var(--primary-color);
   font-weight: 600;
   display: inline-block;
-  margin-top: 0.75rem;
-  margin-bottom: 0.25rem;
+  margin-top: 0.5rem;  /* Space above skill labels */
+  margin-bottom: 0.3rem;
 }
 
-/* Skills paragraph styling */
-p:has(strong:contains("Skills:")),
-p:has(strong:contains("Technologies:")) {
-  background: var(--section-bg);
-  padding: 0.5rem 1rem;
-  margin: 0;
-  border-radius: 0 0 8px 8px;
+/* Regular paragraphs (not in job entries) */
+h2 + p,
+h2 ~ p:not(h3 ~ p) {
+  margin-bottom: 1rem;
+  color: var(--secondary-color);
+  text-align: justify;
+  background: transparent;
+  padding: 0;
 }
 
-/* Last skills paragraph gets bottom radius */
-p:has(strong:contains("Technologies:")):last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-/* Regular paragraphs */
+/* Override for regular paragraphs */
 p {
   margin-bottom: 1rem;
   color: var(--secondary-color);
@@ -218,12 +237,39 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Horizontal Rules */
+/* Horizontal Rules - More spacing */
 hr {
   border: none;
   height: 1px;
   background: var(--border-color);
-  margin: 1.5rem 0;
+  margin: 2.5rem 0;  /* More space around separators */
+}
+
+/* Main Section Headers (## headers) - Better spacing */
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-top: 3.5rem;  /* More space above section headers */
+  margin-bottom: 2rem;  /* More space below section headers */
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--accent-color);
+  position: relative;
+}
+
+/* First section header (after profile) */
+h2:first-of-type {
+  margin-top: 2.5rem;
+}
+
+/* Profile section - better spacing */
+h2:has(+ p:contains("Profile")) + p,
+h1 + .contact-info + hr + h2 + p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  text-align: justify;
+  margin-bottom: 2rem;  /* More space after profile */
+  padding: 1rem 0;
 }
 
 /* Profile section */
@@ -234,28 +280,39 @@ h2:first-of-type + p {
   margin-bottom: 1.5rem;
 }
 
-/* Image styling */
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
+/* Profile photo styling */
 .profile-photo {
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
-  margin: 0 auto 1.5rem;
+  margin: 1rem auto 1.5rem;
   display: block;
-  border: 3px solid var(--accent-color);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 4px solid var(--accent-color);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Hide broken images */
-img[src=""], img:not([src]) {
+.profile-photo:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Hide broken images gracefully */
+.profile-photo[src=""], 
+.profile-photo:not([src]),
+img[alt="Vicente Muñoz"]:not([src]) {
   display: none;
+}
+
+/* Alternative: Show placeholder if image fails to load */
+.profile-photo {
+  background: var(--section-bg);
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  color: var(--text-light);
 }
 
 /* Responsive Design */

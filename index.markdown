@@ -10,6 +10,8 @@ layout: default
 
 # Vicente Manuel Muñoz Milchorena
 
+<img src="assets/images/profile.png" alt="Vicente Muñoz" class="profile-photo">
+
 <div class="contact-info">
 <p><strong>Tijuana, Baja California, México</strong></p>
 <p>E-mail: <a href="mailto:vicente.munoz@milchorena.com">vicente.munoz@milchorena.com</a></p>
@@ -32,11 +34,13 @@ As I continue my journey to becoming a full-fledged historian, I am passionate a
 ## Experience
 
 ### Senior Security Systems Engineer | EPAM Systems
+
 *DECEMBER 2024 - CURRENT*
 
 Configure SIEM and SOAR solutions, ensuring seamless integration with various security tools, systems, and data sources. Develop detection use-cases and implement SIEM detection rules while creating SOAR remediation playbooks to streamline security operations.
 
 **Key responsibilities:**
+
 - Configure SIEM and SOAR solutions, ensuring seamless integration with various security tools, systems, and data sources; Conduct SIEM and SOAR testing and validation
 - Develop detection use-cases and implement SIEM detection rules; Develop SOAR remediation use-cases; Create, test, and update SOAR playbooks to streamline security operations
 - Integrate log sources with SIEM, optimize log ingestion and processing; Perform threat hunting, data enrichment, threat intelligence feeds onboarding, and utilize them for automated responses
@@ -46,11 +50,13 @@ Configure SIEM and SOAR solutions, ensuring seamless integration with various se
 ---
 
 ### IT Manager | Baja Call Center
+
 *MAY 2024 – DECEMBER 2024*
 
 Leading a dynamic team of diverse IT professionals, leveraging a wide range of backgrounds and expertise to ensure smooth and efficient operations. Committed to providing top-tier assistance and support, fostering a collaborative and innovative work environment.
 
 **Key responsibilities:**
+
 - Strategize and implement robust security measures to protect organizational assets
 - Developing and overseeing the Incident Response Plan (IRP) for cybersecurity events, serving as the primary responder with a well-established workflow
 - Managing resource allocation and reconciliation to optimize utilization and drive cost savings
@@ -65,6 +71,7 @@ Leading a dynamic team of diverse IT professionals, leveraging a wide range of b
 ---
 
 ### Cyber Security Incident Responder | Nubank
+
 *AUGUST 2022 – MARCH 2024*
 
 Working with different departments as an Incident Responder, ensuring that incidents are handled with due diligence, identifying the source of the threat, mitigating and controlling, providing the most sensible solution, and producing documentation for a post-mortem review.
@@ -74,6 +81,7 @@ Working with different departments as an Incident Responder, ensuring that incid
 ---
 
 ### DFIR Consultant | Nearshore Cyber
+
 *JANUARY 2023 – CURRENT*
 
 Responding to incidents from different clients involves attending the incident, performing the investigation and mitigation, building a plan for setting the business back in motion, and ensuring that there are clear post-mitigation tasks that the client can follow up on.
