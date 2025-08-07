@@ -1,0 +1,192 @@
+/* PDF-Optimized Styles - Save as assets/css/pdf-optimized.css */
+
+@media print, (min-width: 0) {
+  :root {
+    --primary-color: #000000;
+    --secondary-color: #333333;
+    --accent-color: #1a365d;
+    --text-light: #4a5568;
+    --border-color: #000000;
+  }
+
+  body {
+    font-family: 'Times New Roman', serif;
+    font-size: 11pt;
+    line-height: 1.4;
+    color: var(--primary-color);
+    background: white;
+  }
+
+  .cv-container {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .pdf-download {
+    display: none !important;
+  }
+
+  /* Typography */
+  h1 {
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 12pt;
+    letter-spacing: 0;
+    page-break-after: avoid;
+  }
+
+  h2 {
+    font-size: 14pt;
+    font-weight: bold;
+    margin-top: 18pt;
+    margin-bottom: 10pt;
+    padding-bottom: 4pt;
+    border-bottom: 1pt solid var(--border-color);
+    page-break-after: avoid;
+    color: var(--primary-color);
+  }
+
+  h2::after {
+    display: none;
+  }
+
+  /* Contact Information */
+  .contact-info {
+    text-align: center;
+    margin-bottom: 18pt;
+    font-size: 10pt;
+    color: var(--secondary-color);
+  }
+
+  .contact-info p {
+    margin-bottom: 2pt;
+  }
+
+  /* Job Entries */
+  .job-entry {
+    margin-bottom: 16pt;
+    padding: 0;
+    background: white;
+    border: none;
+    border-radius: 0;
+    page-break-inside: avoid;
+  }
+
+  .job-title {
+    font-size: 12pt;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 2pt;
+    display: inline;
+  }
+
+  .job-company {
+    font-size: 12pt;
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-bottom: 4pt;
+    display: inline;
+  }
+
+  .job-duration {
+    font-size: 11pt;
+    color: var(--secondary-color);
+    font-style: italic;
+    margin-bottom: 8pt;
+    display: inline;
+    float: right;
+  }
+
+  .job-description {
+    clear: both;
+    color: var(--secondary-color);
+    margin-bottom: 8pt;
+    text-align: justify;
+  }
+
+  /* Skills */
+  .skill-category {
+    margin-bottom: 6pt;
+  }
+
+  .skill-label {
+    font-weight: bold;
+    color: var(--primary-color);
+    font-size: 11pt;
+    display: inline;
+    margin-right: 4pt;
+  }
+
+  .skill-tags {
+    display: inline;
+  }
+
+  .skill-tag {
+    background: none;
+    color: var(--secondary-color);
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    font-size: 11pt;
+    font-weight: normal;
+  }
+
+  .skill-tag:not(:last-child)::after {
+    content: ', ';
+  }
+
+  /* Lists */
+  ul {
+    margin-left: 18pt;
+    margin-bottom: 8pt;
+  }
+
+  li {
+    margin-bottom: 3pt;
+    color: var(--secondary-color);
+  }
+
+  /* Links */
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 9pt;
+    color: var(--text-light);
+  }
+
+  /* Section Spacing */
+  hr {
+    border: none;
+    border-top: 1pt solid var(--border-color);
+    margin: 14pt 0;
+  }
+
+  /* Page Breaks */
+  .page-break {
+    page-break-before: always;
+  }
+
+  .no-break {
+    page-break-inside: avoid;
+  }
+
+  /* Certification Links */
+  a[href*="learn.microsoft.com"]::after,
+  a[href*="credentials"]::after {
+    font-size: 8pt;
+    color: var(--text-light);
+  }
+
+  /* Hide web-specific elements */
+  .web-only {
+    display: none !important;
+  }
+}

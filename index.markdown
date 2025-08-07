@@ -10,6 +10,7 @@ layout: default
 
 # Vicente Manuel Muñoz Milchorena
 
+<img src="assets/img/profile.png" alt="Vicente Muñoz" class="profile-photo">
 <div class="contact-info">
 <p><strong>Tijuana, Baja California, México</strong></p>
 <p>E-mail: <a href="mailto:vicente.munoz@milchorena.com">vicente.munoz@milchorena.com</a></p>
@@ -32,7 +33,7 @@ As I continue my journey to becoming a full-fledged historian, I am passionate a
 ## Experience
 
 <div class="job-entry">
-<div class="job-title">Senior Security Systems Engineer</div> | <div class="job-company">EPAM Systems</div>
+<div class="job-title">Senior Security Systems Engineer</div><div class="job-company">EPAM Systems</div>
 <div class="job-duration">DECEMBER 2024 - CURRENT</div>
 
 <div class="job-description">
@@ -46,10 +47,11 @@ Configure SIEM and SOAR solutions, ensuring seamless integration with various se
 - Integrate log sources with SIEM, optimize log ingestion and processing; Perform threat hunting, data enrichment, threat intelligence feeds onboarding, and utilize them for automated responses
 - Generate reports for both technical and non-technical staff and stakeholders
 - Stay up-to-date with SIEM technologies and identify opportunities for continuous improvement
+
 </div>
 
 <div class="job-entry">
-<div class="job-title">IT Manager</div> | <div class="job-company">Baja Call Center</div>
+<div class="job-title">IT Manager</div><div class="job-company">Baja Call Center</div>
 <div class="job-duration">MAY 2024 – DECEMBER 2024</div>
 
 <div class="job-description">
@@ -76,8 +78,73 @@ Leading a dynamic team of diverse IT professionals, leveraging a wide range of b
 </div>
 </div>
 
+<div class="skill-category">
+<span class="skill-label">Technologies:</span>
+<div class="skill-tags">
+<span class="skill-tag">Proxmox</span>
+<span class="skill-tag">TP-Link</span>
+<span class="skill-tag">Elastic Stack</span>
+<span class="skill-tag">Wazuh</span>
+<span class="skill-tag">Zabbix</span>
+<span class="skill-tag">Zoho</span>
+<span class="skill-tag">Vicidial</span>
+<span class="skill-tag">Windows Administration</span>
+<span class="skill-tag">Linux</span>
+<span class="skill-tag">AWS</span>
+<span class="skill-tag">Google Workspace</span>
+<span class="skill-tag">SonicWALL</span>
+<span class="skill-tag">GVM</span>
+<span class="skill-tag">PHP</span>
+<span class="skill-tag">MySQL</span>
+<span class="skill-tag">VB6</span>
+</div>
+</div>
+</div>
+
 <div class="job-entry">
-<div class="job-title">Cyber Security Mentor</div> | <div class="job-company">Chegg</div>
+<div class="job-title">Cyber Security Incident Responder</div><div class="job-company">Nubank</div>
+<div class="job-duration">AUGUST 2022 – MARCH 2024</div>
+
+<div class="job-description">
+Working with different departments as an Incident Responder, ensuring that incidents are handled with due diligence, identifying the source of the threat, mitigating and controlling, providing the most sensible solution, and producing documentation for a post-mortem review.
+</div>
+
+<div class="skill-category">
+<span class="skill-label">Skills:</span>
+<div class="skill-tags">
+<span class="skill-tag">AWS Security</span>
+<span class="skill-tag">Incident Response</span>
+<span class="skill-tag">Process Automation</span>
+<span class="skill-tag">Linux</span>
+<span class="skill-tag">Windows</span>
+<span class="skill-tag">Splunk</span>
+<span class="skill-tag">Google Chronicle</span>
+<span class="skill-tag">Torq</span>
+</div>
+</div>
+</div>
+
+<div class="job-entry">
+<div class="job-title">DFIR Consultant</div><div class="job-company">Nearshore Cyber</div>
+<div class="job-duration">JANUARY 2023 – CURRENT</div>
+
+<div class="job-description">
+Responding to incidents from different clients involves attending the incident, performing the investigation and mitigation, building a plan for setting the business back in motion, and ensuring that there are clear post-mitigation tasks that the client can follow up on.
+</div>
+
+<div class="skill-category">
+<span class="skill-label">Skills:</span>
+<div class="skill-tags">
+<span class="skill-tag">Security Incident Response</span>
+<span class="skill-tag">Digital Forensics</span>
+<span class="skill-tag">Vulnerability Assessment and Penetration Testing (VAPT)</span>
+<span class="skill-tag">Vulnerability Management and Remediation</span>
+</div>
+</div>
+</div>
+
+<div class="job-entry">
+<div class="job-title">Cyber Security Mentor</div><div class="job-company">Chegg</div>
 <div class="job-duration">DECEMBER 2021 – AUGUST 2022</div>
 
 <div class="job-description">
@@ -96,7 +163,7 @@ Provided guidance and mentorship to students on their career paths, including re
 </div>
 
 <div class="job-entry">
-<div class="job-title">Professor</div> | <div class="job-company">UNIAT</div>
+<div class="job-title">Professor</div><div class="job-company">UNIAT</div>
 <div class="job-duration">SEPTEMBER 2021 – AUGUST 2022</div>
 
 <div class="job-description">
@@ -115,7 +182,7 @@ Taught cybersecurity subjects to master's students, focusing on auditing, compli
 </div>
 
 <div class="job-entry">
-<div class="job-title">Integration Engineer</div> | <div class="job-company">NXLog Ltd</div>
+<div class="job-title">Integration Engineer</div><div class="job-company">NXLog Ltd</div>
 <div class="job-duration">MAY 2021 – AUGUST 2022</div>
 
 <div class="job-description">
@@ -139,7 +206,7 @@ Day-to-day activities change depending on requirements; these can range from cod
 </div>
 
 <div class="job-entry">
-<div class="job-title">IT Helpdesk Engineer</div> | <div class="job-company">Brier & Thorn S.A.P.I de C.V.</div>
+<div class="job-title">IT Helpdesk Engineer</div><div class="job-company">Brier & Thorn S.A.P.I de C.V.</div>
 <div class="job-duration">JANUARY 2021 – SEPTEMBER 2021</div>
 
 <div class="job-description">
@@ -164,7 +231,7 @@ Set up, configure, and deploy security infrastructure to enable the SOC to monit
 </div>
 
 <div class="job-entry">
-<div class="job-title">IT SOC Analyst II</div> | <div class="job-company">Brier & Thorn S.A.P.I de C.V.</div>
+<div class="job-title">IT SOC Analyst II</div><div class="job-company">Brier & Thorn S.A.P.I de C.V.</div>
 <div class="job-duration">JULY 2020 – JANUARY 2021</div>
 
 <div class="job-description">
@@ -196,7 +263,29 @@ Working with a team of ten people, installing, and configuring, managing, suppor
 </div>
 
 <div class="job-entry">
-<div class="job-title">SOC Manager</div> | <div class="job-company">Brier & Thorn S.A.P.I de C.V.</div>
+<div class="job-title">Freelance Information Technology / Cybersecurity Consultant</div>
+<div class="job-duration">JANUARY 2020 - CURRENT</div>
+
+<div class="job-description">
+Provide comprehensive services to clients globally, including managing servers, developing software and scripts, documenting processes, handling incident response, and installing and configuring security platforms.
+</div>
+
+<div class="skill-category">
+<span class="skill-label">Skills:</span>
+<div class="skill-tags">
+<span class="skill-tag">Security Incident Response</span>
+<span class="skill-tag">Security Information and Event Management (SIEM)</span>
+<span class="skill-tag">Linux</span>
+<span class="skill-tag">Python</span>
+<span class="skill-tag">Technical Documentation</span>
+<span class="skill-tag">Windows</span>
+<span class="skill-tag">Online Consultancy</span>
+</div>
+</div>
+</div>
+
+<div class="job-entry">
+<div class="job-title">SOC Manager</div><div class="job-company">Brier & Thorn S.A.P.I de C.V.</div>
 <div class="job-duration">OCTOBER 2019 – JULY 2020</div>
 
 <div class="job-description">
@@ -228,7 +317,7 @@ Overseeing and coordinating operations inside the SOC and in-house Red Team, mee
 </div>
 
 <div class="job-entry">
-<div class="job-title">IT SOC Analyst II</div> | <div class="job-company">Brier & Thorn S.A.P.I de C.V.</div>
+<div class="job-title">IT SOC Analyst II</div><div class="job-company">Brier & Thorn S.A.P.I de C.V.</div>
 <div class="job-duration">NOVEMBER 2016 – OCTOBER 2019</div>
 
 <div class="job-description">
@@ -260,7 +349,7 @@ Working with a team of ten people, installing, and configuring, managing, suppor
 </div>
 
 <div class="job-entry">
-<div class="job-title">IT Service Desk II</div> | <div class="job-company">Integer Holdings Corporation</div>
+<div class="job-title">IT Service Desk II</div><div class="job-company">Integer Holdings Corporation</div>
 <div class="job-duration">MAY 2016 – NOVEMBER 2016</div>
 
 <div class="job-description">
@@ -280,7 +369,7 @@ I served as a Night Shift Helpdesk Technician, collaborating with a dedicated te
 </div>
 
 <div class="job-entry">
-<div class="job-title">Junior Programmer</div> | <div class="job-company">National Autoparts Mexico</div>
+<div class="job-title">Junior Programmer</div><div class="job-company">National Autoparts Mexico</div>
 <div class="job-duration">SEPTEMBER 2012 – JANUARY 2014</div>
 
 <div class="job-description">
@@ -302,7 +391,7 @@ Responsible for developing and supporting in-house applications tailored to meet
 </div>
 
 <div class="job-entry">
-<div class="job-title">Desktop Technician III (MES/MIS)</div> | <div class="job-company">Flexmedical (formerly Availmed)</div>
+<div class="job-title">Desktop Technician III (MES/MIS)</div><div class="job-company">Flexmedical (formerly Availmed)</div>
 <div class="job-duration">OCTOBER 2008 – JANUARY 2011</div>
 
 <div class="job-description">
@@ -319,92 +408,6 @@ Managed on-site support operations across four medical disposables manufacturing
 <span class="skill-tag">Blackberry Enterprise Server</span>
 </div>
 </div>
-
-<div class="skill-category">
-<span class="skill-label">Technologies:</span>
-<div class="skill-tags">
-<span class="skill-tag">Proxmox</span>
-<span class="skill-tag">TP-Link</span>
-<span class="skill-tag">Elastic Stack</span>
-<span class="skill-tag">Wazuh</span>
-<span class="skill-tag">Zabbix</span>
-<span class="skill-tag">Zoho</span>
-<span class="skill-tag">Vicidial</span>
-<span class="skill-tag">Windows Administration</span>
-<span class="skill-tag">Linux</span>
-<span class="skill-tag">AWS</span>
-<span class="skill-tag">Google Workspace</span>
-<span class="skill-tag">SonicWALL</span>
-<span class="skill-tag">GVM</span>
-<span class="skill-tag">PHP</span>
-<span class="skill-tag">MySQL</span>
-<span class="skill-tag">VB6</span>
-</div>
-</div>
-</div>
-
-<div class="job-entry">
-<div class="job-title">DFIR Consultant</div> | <div class="job-company">Nearshore Cyber</div>
-<div class="job-duration">JANUARY 2023 – CURRENT</div>
-
-<div class="job-description">
-Responding to incidents from different clients involves attending the incident, performing the investigation and mitigation, building a plan for setting the business back in motion, and ensuring that there are clear post-mitigation tasks that the client can follow up on.
-</div>
-
-<div class="skill-category">
-<span class="skill-label">Skills:</span>
-<div class="skill-tags">
-<span class="skill-tag">Security Incident Response</span>
-<span class="skill-tag">Digital Forensics</span>
-<span class="skill-tag">Vulnerability Assessment and Penetration Testing (VAPT)</span>
-<span class="skill-tag">Vulnerability Management and Remediation</span>
-</div>
-</div>
-</div>
-
-<div class="job-entry">
-<div class="job-title">Freelance Information Technology / Cybersecurity Consultant</div>
-<div class="job-duration">JANUARY 2020 - CURRENT</div>
-
-<div class="job-description">
-Provide comprehensive services to clients globally, including managing servers, developing software and scripts, documenting processes, handling incident response, and installing and configuring security platforms.
-</div>
-
-<div class="skill-category">
-<span class="skill-label">Skills:</span>
-<div class="skill-tags">
-<span class="skill-tag">Security Incident Response</span>
-<span class="skill-tag">Security Information and Event Management (SIEM)</span>
-<span class="skill-tag">Linux</span>
-<span class="skill-tag">Python</span>
-<span class="skill-tag">Technical Documentation</span>
-<span class="skill-tag">Windows</span>
-<span class="skill-tag">Online Consultancy</span>
-</div>
-</div>
-</div>
-
-<div class="job-entry">
-<div class="job-title">Cyber Security Incident Responder</div> | <div class="job-company">Nubank</div>
-<div class="job-duration">AUGUST 2022 – MARCH 2024</div>
-
-<div class="job-description">
-Working with different departments as an Incident Responder, ensuring that incidents are handled with due diligence, identifying the source of the threat, mitigating and controlling, providing the most sensible solution, and producing documentation for a post-mortem review.
-</div>
-
-<div class="skill-category">
-<span class="skill-label">Skills:</span>
-<div class="skill-tags">
-<span class="skill-tag">AWS Security</span>
-<span class="skill-tag">Incident Response</span>
-<span class="skill-tag">Process Automation</span>
-<span class="skill-tag">Linux</span>
-<span class="skill-tag">Windows</span>
-<span class="skill-tag">Splunk</span>
-<span class="skill-tag">Google Chronicle</span>
-<span class="skill-tag">Torq</span>
-</div>
-</div>
 </div>
 
 ---
@@ -412,7 +415,7 @@ Working with different departments as an Incident Responder, ensuring that incid
 ## Education
 
 <div class="job-entry">
-<div class="job-title">B.A. in History</div> | <div class="job-company">Universidad Autónoma de Baja California</div>
+<div class="job-title">B.A. in History</div><div class="job-company">Universidad Autónoma de Baja California</div>
 <div class="job-duration">2011 – 2019</div>
 
 <div class="job-description">
