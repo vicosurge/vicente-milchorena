@@ -10,7 +10,7 @@ layout: default
 
 # Vicente Manuel Muñoz Milchorena
 
-<img src="assets/images/profile.png" alt="Vicente Muñoz" class="profile-photo">
+<img src="assets/images/profile.jpg" alt="Vicente Muñoz" class="profile-photo">
 
 <div class="contact-info">
 <p><strong>Tijuana, Baja California, México</strong></p>

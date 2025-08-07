@@ -280,28 +280,39 @@ h2:first-of-type + p {
   margin-bottom: 1.5rem;
 }
 
-/* Image styling */
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
+/* Profile photo styling */
 .profile-photo {
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
-  margin: 0 auto 1.5rem;
+  margin: 1rem auto 1.5rem;
   display: block;
-  border: 3px solid var(--accent-color);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 4px solid var(--accent-color);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Hide broken images */
-img[src=""], img:not([src]) {
+.profile-photo:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Hide broken images gracefully */
+.profile-photo[src=""], 
+.profile-photo:not([src]),
+img[alt="Vicente Muñoz"]:not([src]) {
   display: none;
+}
+
+/* Alternative: Show placeholder if image fails to load */
+.profile-photo {
+  background: var(--section-bg);
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%;
+  color: var(--text-light);
 }
 
 /* Responsive Design */
