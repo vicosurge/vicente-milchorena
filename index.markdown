@@ -10,7 +10,6 @@ layout: default
 
 # Vicente Manuel Muñoz Milchorena
 
-<img src="assets/img/profile.png" alt="Vicente Muñoz" class="profile-photo">
 <div class="contact-info">
 <p><strong>Tijuana, Baja California, México</strong></p>
 <p>E-mail: <a href="mailto:vicente.munoz@milchorena.com">vicente.munoz@milchorena.com</a></p>
@@ -32,34 +31,26 @@ As I continue my journey to becoming a full-fledged historian, I am passionate a
 
 ## Experience
 
-<div class="job-entry">
-<div class="job-title">Senior Security Systems Engineer</div><div class="job-company">EPAM Systems</div>
-<div class="job-duration">DECEMBER 2024 - CURRENT</div>
+### Senior Security Systems Engineer | EPAM Systems
+*DECEMBER 2024 - CURRENT*
 
-<div class="job-description">
 Configure SIEM and SOAR solutions, ensuring seamless integration with various security tools, systems, and data sources. Develop detection use-cases and implement SIEM detection rules while creating SOAR remediation playbooks to streamline security operations.
 
-<strong>Key responsibilities:</strong>
-</div>
-
+**Key responsibilities:**
 - Configure SIEM and SOAR solutions, ensuring seamless integration with various security tools, systems, and data sources; Conduct SIEM and SOAR testing and validation
 - Develop detection use-cases and implement SIEM detection rules; Develop SOAR remediation use-cases; Create, test, and update SOAR playbooks to streamline security operations
 - Integrate log sources with SIEM, optimize log ingestion and processing; Perform threat hunting, data enrichment, threat intelligence feeds onboarding, and utilize them for automated responses
 - Generate reports for both technical and non-technical staff and stakeholders
 - Stay up-to-date with SIEM technologies and identify opportunities for continuous improvement
 
-</div>
+---
 
-<div class="job-entry">
-<div class="job-title">IT Manager</div><div class="job-company">Baja Call Center</div>
-<div class="job-duration">MAY 2024 – DECEMBER 2024</div>
+### IT Manager | Baja Call Center
+*MAY 2024 – DECEMBER 2024*
 
-<div class="job-description">
 Leading a dynamic team of diverse IT professionals, leveraging a wide range of backgrounds and expertise to ensure smooth and efficient operations. Committed to providing top-tier assistance and support, fostering a collaborative and innovative work environment.
 
-<strong>Key responsibilities:</strong>
-</div>
-
+**Key responsibilities:**
 - Strategize and implement robust security measures to protect organizational assets
 - Developing and overseeing the Incident Response Plan (IRP) for cybersecurity events, serving as the primary responder with a well-established workflow
 - Managing resource allocation and reconciliation to optimize utilization and drive cost savings
@@ -67,371 +58,137 @@ Leading a dynamic team of diverse IT professionals, leveraging a wide range of b
 - Collaborating with other departments to implement technology solutions that streamline processes and enhance efficiency
 - Manage vendor relationships and coordinate with upper management on contract negotiations
 
-<div class="skill-category">
-<span class="skill-label">Skills:</span>
-<div class="skill-tags">
-<span class="skill-tag">Team Leadership</span>
-<span class="skill-tag">Security Measures</span>
-<span class="skill-tag">Resource Management</span>
-<span class="skill-tag">Business Scalability</span>
-<span class="skill-tag">PCI-DSS Compliance</span>
-</div>
-</div>
+**Skills:** Team Leadership, Security Measures, Resource Management, Business Scalability, PCI-DSS Compliance
 
-<div class="skill-category">
-<span class="skill-label">Technologies:</span>
-<div class="skill-tags">
-<span class="skill-tag">Proxmox</span>
-<span class="skill-tag">TP-Link</span>
-<span class="skill-tag">Elastic Stack</span>
-<span class="skill-tag">Wazuh</span>
-<span class="skill-tag">Zabbix</span>
-<span class="skill-tag">Zoho</span>
-<span class="skill-tag">Vicidial</span>
-<span class="skill-tag">Windows Administration</span>
-<span class="skill-tag">Linux</span>
-<span class="skill-tag">AWS</span>
-<span class="skill-tag">Google Workspace</span>
-<span class="skill-tag">SonicWALL</span>
-<span class="skill-tag">GVM</span>
-<span class="skill-tag">PHP</span>
-<span class="skill-tag">MySQL</span>
-<span class="skill-tag">VB6</span>
-</div>
-</div>
-</div>
+**Technologies:** Proxmox, TP-Link, Elastic Stack, Wazuh, Zabbix, Zoho, Vicidial, Windows Administration, Linux, AWS, Google Workspace, SonicWALL, GVM, PHP, MySQL, VB6
 
-<div class="job-entry">
-<div class="job-title">Cyber Security Incident Responder</div><div class="job-company">Nubank</div>
-<div class="job-duration">AUGUST 2022 – MARCH 2024</div>
+---
 
-<div class="job-description">
+### Cyber Security Incident Responder | Nubank
+*AUGUST 2022 – MARCH 2024*
+
 Working with different departments as an Incident Responder, ensuring that incidents are handled with due diligence, identifying the source of the threat, mitigating and controlling, providing the most sensible solution, and producing documentation for a post-mortem review.
-</div>
 
-<div class="skill-category">
-<span class="skill-label">Skills:</span>
-<div class="skill-tags">
-<span class="skill-tag">AWS Security</span>
-<span class="skill-tag">Incident Response</span>
-<span class="skill-tag">Process Automation</span>
-<span class="skill-tag">Linux</span>
-<span class="skill-tag">Windows</span>
-<span class="skill-tag">Splunk</span>
-<span class="skill-tag">Google Chronicle</span>
-<span class="skill-tag">Torq</span>
-</div>
-</div>
-</div>
+**Skills:** AWS Security, Incident Response, Process Automation, Linux, Windows, Splunk, Google Chronicle, Torq
 
-<div class="job-entry">
-<div class="job-title">DFIR Consultant</div><div class="job-company">Nearshore Cyber</div>
-<div class="job-duration">JANUARY 2023 – CURRENT</div>
+---
 
-<div class="job-description">
+### DFIR Consultant | Nearshore Cyber
+*JANUARY 2023 – CURRENT*
+
 Responding to incidents from different clients involves attending the incident, performing the investigation and mitigation, building a plan for setting the business back in motion, and ensuring that there are clear post-mitigation tasks that the client can follow up on.
-</div>
 
-<div class="skill-category">
-<span class="skill-label">Skills:</span>
-<div class="skill-tags">
-<span class="skill-tag">Security Incident Response</span>
-<span class="skill-tag">Digital Forensics</span>
-<span class="skill-tag">Vulnerability Assessment and Penetration Testing (VAPT)</span>
-<span class="skill-tag">Vulnerability Management and Remediation</span>
-</div>
-</div>
-</div>
+**Skills:** Security Incident Response, Digital Forensics, Vulnerability Assessment and Penetration Testing (VAPT), Vulnerability Management and Remediation
 
-<div class="job-entry">
-<div class="job-title">Cyber Security Mentor</div><div class="job-company">Chegg</div>
-<div class="job-duration">DECEMBER 2021 – AUGUST 2022</div>
+---
 
-<div class="job-description">
+### Cyber Security Mentor | Chegg
+*DECEMBER 2021 – AUGUST 2022*
+
 Provided guidance and mentorship to students on their career paths, including recommendations, additional material, and assistance with laboratories.
-</div>
 
-<div class="skill-category">
-<span class="skill-label">Skills:</span>
-<div class="skill-tags">
-<span class="skill-tag">ISO27002</span>
-<span class="skill-tag">Security Incident Response</span>
-<span class="skill-tag">Penetration Testing</span>
-<span class="skill-tag">Social Engineering</span>
-</div>
-</div>
-</div>
+**Skills:** ISO27002, Security Incident Response, Penetration Testing, Social Engineering
 
-<div class="job-entry">
-<div class="job-title">Professor</div><div class="job-company">UNIAT</div>
-<div class="job-duration">SEPTEMBER 2021 – AUGUST 2022</div>
+---
 
-<div class="job-description">
+### Professor | UNIAT
+*SEPTEMBER 2021 – AUGUST 2022*
+
 Taught cybersecurity subjects to master's students, focusing on auditing, compliance, SOC, and incident response.
-</div>
 
-<div class="skill-category">
-<span class="skill-label">Skills:</span>
-<div class="skill-tags">
-<span class="skill-tag">ISO27002</span>
-<span class="skill-tag">Security Incident Response</span>
-<span class="skill-tag">Penetration Testing</span>
-<span class="skill-tag">Social Engineering</span>
-</div>
-</div>
-</div>
+**Skills:** ISO27002, Security Incident Response, Penetration Testing, Social Engineering
 
-<div class="job-entry">
-<div class="job-title">Integration Engineer</div><div class="job-company">NXLog Ltd</div>
-<div class="job-duration">MAY 2021 – AUGUST 2022</div>
+---
 
-<div class="job-description">
+### Integration Engineer | NXLog Ltd
+*MAY 2021 – AUGUST 2022*
+
 Day-to-day activities change depending on requirements; these can range from coding, debugging in different languages, troubleshooting client issues or investigating reported vulnerabilities or faults on software, creating guides, documentation, and integrations with other platforms and how to parse or process data to comply with other platforms properly; help in creating internal processes and procedures for a streamlined workflow.
-</div>
 
-<div class="skill-category">
-<span class="skill-label">Skills:</span>
-<div class="skill-tags">
-<span class="skill-tag">Windows</span>
-<span class="skill-tag">Linux</span>
-<span class="skill-tag">Security Information and Event Management (SIEM)</span>
-<span class="skill-tag">Python</span>
-<span class="skill-tag">Bash</span>
-<span class="skill-tag">PowerShell</span>
-<span class="skill-tag">Git</span>
-<span class="skill-tag">Technical Writing</span>
-<span class="skill-tag">Markdown</span>
-</div>
-</div>
-</div>
+**Skills:** Windows, Linux, Security Information and Event Management (SIEM), Python, Bash, PowerShell, Git, Technical Writing, Markdown
 
-<div class="job-entry">
-<div class="job-title">IT Helpdesk Engineer</div><div class="job-company">Brier & Thorn S.A.P.I de C.V.</div>
-<div class="job-duration">JANUARY 2021 – SEPTEMBER 2021</div>
+---
 
-<div class="job-description">
+### IT Helpdesk Engineer | Brier & Thorn S.A.P.I de C.V.
+*JANUARY 2021 – SEPTEMBER 2021*
+
 Set up, configure, and deploy security infrastructure to enable the SOC to monitor and assess client environments. Utilize and develop tools to support maintenance and expedite the implementation of platforms, appliances, and software essential for daily operations.
-</div>
 
-<div class="skill-category">
-<span class="skill-label">Skills:</span>
-<div class="skill-tags">
-<span class="skill-tag">Windows</span>
-<span class="skill-tag">Linux</span>
-<span class="skill-tag">Security Information and Event Management (SIEM)</span>
-<span class="skill-tag">EDR/XDR</span>
-<span class="skill-tag">DLP (Digital Guardian)</span>
-<span class="skill-tag">Firewalls</span>
-<span class="skill-tag">Email Gateway</span>
-<span class="skill-tag">Python</span>
-<span class="skill-tag">Bash</span>
-<span class="skill-tag">PowerShell</span>
-</div>
-</div>
-</div>
+**Skills:** Windows, Linux, Security Information and Event Management (SIEM), EDR/XDR, DLP (Digital Guardian), Firewalls, Email Gateway, Python, Bash, PowerShell
 
-<div class="job-entry">
-<div class="job-title">IT SOC Analyst II</div><div class="job-company">Brier & Thorn S.A.P.I de C.V.</div>
-<div class="job-duration">JULY 2020 – JANUARY 2021</div>
+---
 
-<div class="job-description">
+### IT SOC Analyst II | Brier & Thorn S.A.P.I de C.V.
+*JULY 2020 – JANUARY 2021*
+
 Working with a team of ten people, installing, and configuring, managing, supporting, and monitoring more than one hundred platforms using different technologies, finding the best ways to improve the quality of our service and response time for our clients, additionally assisting in penetration testing and projects our clients may need.
-</div>
 
-<div class="skill-category">
-<span class="skill-label">Skills:</span>
-<div class="skill-tags">
-<span class="skill-tag">Windows</span>
-<span class="skill-tag">Linux</span>
-<span class="skill-tag">Security Information and Event Management (SIEM)</span>
-<span class="skill-tag">EDR/XDR</span>
-<span class="skill-tag">DLP (Digital Guardian)</span>
-<span class="skill-tag">Firewalls</span>
-<span class="skill-tag">Email Gateway</span>
-<span class="skill-tag">Python</span>
-<span class="skill-tag">Bash</span>
-<span class="skill-tag">PowerShell</span>
-<span class="skill-tag">Git</span>
-<span class="skill-tag">Vulnerability Assessment and Penetration Testing</span>
-<span class="skill-tag">Network and Host Architecture</span>
-<span class="skill-tag">AWS</span>
-<span class="skill-tag">Azure</span>
-<span class="skill-tag">GCP</span>
-<span class="skill-tag">SAST/DAST</span>
-</div>
-</div>
-</div>
+**Skills:** Windows, Linux, Security Information and Event Management (SIEM), EDR/XDR, DLP (Digital Guardian), Firewalls, Email Gateway, Python, Bash, PowerShell, Git, Vulnerability Assessment and Penetration Testing, Network and Host Architecture, AWS, Azure, GCP, SAST/DAST
 
-<div class="job-entry">
-<div class="job-title">Freelance Information Technology / Cybersecurity Consultant</div>
-<div class="job-duration">JANUARY 2020 - CURRENT</div>
+---
 
-<div class="job-description">
+### Freelance Information Technology / Cybersecurity Consultant
+*JANUARY 2020 - CURRENT*
+
 Provide comprehensive services to clients globally, including managing servers, developing software and scripts, documenting processes, handling incident response, and installing and configuring security platforms.
-</div>
 
-<div class="skill-category">
-<span class="skill-label">Skills:</span>
-<div class="skill-tags">
-<span class="skill-tag">Security Incident Response</span>
-<span class="skill-tag">Security Information and Event Management (SIEM)</span>
-<span class="skill-tag">Linux</span>
-<span class="skill-tag">Python</span>
-<span class="skill-tag">Technical Documentation</span>
-<span class="skill-tag">Windows</span>
-<span class="skill-tag">Online Consultancy</span>
-</div>
-</div>
-</div>
+**Skills:** Security Incident Response, Security Information and Event Management (SIEM), Linux, Python, Technical Documentation, Windows, Online Consultancy
 
-<div class="job-entry">
-<div class="job-title">SOC Manager</div><div class="job-company">Brier & Thorn S.A.P.I de C.V.</div>
-<div class="job-duration">OCTOBER 2019 – JULY 2020</div>
+---
 
-<div class="job-description">
+### SOC Manager | Brier & Thorn S.A.P.I de C.V.
+*OCTOBER 2019 – JULY 2020*
+
 Overseeing and coordinating operations inside the SOC and in-house Red Team, meeting with clients to discuss current processes and improvements, assisting with risk assessment for our clients, working hand to hand with our PMO department to improve quality of service, spearheading our internal development creating new tools and integrations, creating training development plan as well as ensuring that employees undergo required training and certifications.
-</div>
 
-<div class="skill-category">
-<span class="skill-label">Skills:</span>
-<div class="skill-tags">
-<span class="skill-tag">Windows</span>
-<span class="skill-tag">Linux</span>
-<span class="skill-tag">Security Information and Event Management (SIEM)</span>
-<span class="skill-tag">EDR/XDR</span>
-<span class="skill-tag">DLP (Digital Guardian)</span>
-<span class="skill-tag">Firewalls</span>
-<span class="skill-tag">Email Gateway</span>
-<span class="skill-tag">Python</span>
-<span class="skill-tag">Bash</span>
-<span class="skill-tag">PowerShell</span>
-<span class="skill-tag">Git</span>
-<span class="skill-tag">Vulnerability Assessment and Penetration Testing</span>
-<span class="skill-tag">Network and Host Architecture</span>
-<span class="skill-tag">AWS</span>
-<span class="skill-tag">Azure</span>
-<span class="skill-tag">GCP</span>
-<span class="skill-tag">SAST/DAST</span>
-</div>
-</div>
-</div>
+**Skills:** Windows, Linux, Security Information and Event Management (SIEM), EDR/XDR, DLP (Digital Guardian), Firewalls, Email Gateway, Python, Bash, PowerShell, Git, Vulnerability Assessment and Penetration Testing, Network and Host Architecture, AWS, Azure, GCP, SAST/DAST
 
-<div class="job-entry">
-<div class="job-title">IT SOC Analyst II</div><div class="job-company">Brier & Thorn S.A.P.I de C.V.</div>
-<div class="job-duration">NOVEMBER 2016 – OCTOBER 2019</div>
+---
 
-<div class="job-description">
+### IT SOC Analyst II | Brier & Thorn S.A.P.I de C.V.
+*NOVEMBER 2016 – OCTOBER 2019*
+
 Working with a team of ten people, installing, and configuring, managing, supporting, and monitoring more than one hundred platforms using different technologies, finding the best ways to improve the quality of our service and response time for our clients, additionally assisting in penetration testing and projects our clients may need.
-</div>
 
-<div class="skill-category">
-<span class="skill-label">Skills:</span>
-<div class="skill-tags">
-<span class="skill-tag">Windows</span>
-<span class="skill-tag">Linux</span>
-<span class="skill-tag">Security Information and Event Management (SIEM)</span>
-<span class="skill-tag">EDR/XDR</span>
-<span class="skill-tag">DLP (Digital Guardian)</span>
-<span class="skill-tag">Firewalls</span>
-<span class="skill-tag">Email Gateway</span>
-<span class="skill-tag">Python</span>
-<span class="skill-tag">Bash</span>
-<span class="skill-tag">PowerShell</span>
-<span class="skill-tag">Git</span>
-<span class="skill-tag">Vulnerability Assessment and Penetration Testing</span>
-<span class="skill-tag">Network and Host Architecture</span>
-<span class="skill-tag">AWS</span>
-<span class="skill-tag">Azure</span>
-<span class="skill-tag">GCP</span>
-<span class="skill-tag">SAST/DAST</span>
-</div>
-</div>
-</div>
+**Skills:** Windows, Linux, Security Information and Event Management (SIEM), EDR/XDR, DLP (Digital Guardian), Firewalls, Email Gateway, Python, Bash, PowerShell, Git, Vulnerability Assessment and Penetration Testing, Network and Host Architecture, AWS, Azure, GCP, SAST/DAST
 
-<div class="job-entry">
-<div class="job-title">IT Service Desk II</div><div class="job-company">Integer Holdings Corporation</div>
-<div class="job-duration">MAY 2016 – NOVEMBER 2016</div>
+---
 
-<div class="job-description">
+### IT Service Desk II | Integer Holdings Corporation
+*MAY 2016 – NOVEMBER 2016*
+
 I served as a Night Shift Helpdesk Technician, collaborating with a dedicated team of four. My responsibilities included managing user accounts by creating, updating, and removing information across various systems. Additionally, I prepared equipment and computers for new employees and vigilantly monitored the security platform (SolarWinds) to promptly address any incidents.
-</div>
 
-<div class="skill-category">
-<span class="skill-label">Skills:</span>
-<div class="skill-tags">
-<span class="skill-tag">Active Directory</span>
-<span class="skill-tag">Windows</span>
-<span class="skill-tag">SolarWinds</span>
-<span class="skill-tag">Printer Support</span>
-<span class="skill-tag">Customer Support</span>
-</div>
-</div>
-</div>
+**Skills:** Active Directory, Windows, SolarWinds, Printer Support, Customer Support
 
-<div class="job-entry">
-<div class="job-title">Junior Programmer</div><div class="job-company">National Autoparts Mexico</div>
-<div class="job-duration">SEPTEMBER 2012 – JANUARY 2014</div>
+---
 
-<div class="job-description">
+### Junior Programmer | National Autoparts Mexico
+*SEPTEMBER 2012 – JANUARY 2014*
+
 Responsible for developing and supporting in-house applications tailored to meet logistics, human resources, marketing, and sales needs. Tasks included creating reports, views, and forms, primarily utilizing PHP and Python, with MySQL and SQLite databases for data management.
-</div>
 
-<div class="skill-category">
-<span class="skill-label">Skills:</span>
-<div class="skill-tags">
-<span class="skill-tag">PHP</span>
-<span class="skill-tag">Python</span>
-<span class="skill-tag">jQuery</span>
-<span class="skill-tag">MySQL</span>
-<span class="skill-tag">SQLite</span>
-<span class="skill-tag">Linux</span>
-<span class="skill-tag">Windows</span>
-</div>
-</div>
-</div>
+**Skills:** PHP, Python, jQuery, MySQL, SQLite, Linux, Windows
 
-<div class="job-entry">
-<div class="job-title">Desktop Technician III (MES/MIS)</div><div class="job-company">Flexmedical (formerly Availmed)</div>
-<div class="job-duration">OCTOBER 2008 – JANUARY 2011</div>
+---
 
-<div class="job-description">
+### Desktop Technician III (MES/MIS) | Flexmedical (formerly Availmed)
+*OCTOBER 2008 – JANUARY 2011*
+
 Managed on-site support operations across four medical disposables manufacturing facilities, overseeing a user base exceeding five hundred individuals. Responsibilities included active directory administration, networking support encompassing ethernet, telephony, and wireless technologies, as well as oversight of all regional printers, Nextel, and Blackberry devices.
-</div>
 
-<div class="skill-category">
-<span class="skill-label">Skills:</span>
-<div class="skill-tags">
-<span class="skill-tag">Windows</span>
-<span class="skill-tag">Nortel PBX</span>
-<span class="skill-tag">Technical Support</span>
-<span class="skill-tag">Printer Support</span>
-<span class="skill-tag">Blackberry Enterprise Server</span>
-</div>
-</div>
-</div>
+**Skills:** Windows, Nortel PBX, Technical Support, Printer Support, Blackberry Enterprise Server
 
 ---
 
 ## Education
 
-<div class="job-entry">
-<div class="job-title">B.A. in History</div><div class="job-company">Universidad Autónoma de Baja California</div>
-<div class="job-duration">2011 – 2019</div>
+### B.A. in History | Universidad Autónoma de Baja California
+*2011 – 2019*
 
-<div class="job-description">
 Courses focused on world history, Mexican history, regional history, and relations between Mexico and the USA. My thesis focuses on Digital Humanities.
-</div>
 
-<div class="skill-category">
-<span class="skill-label">Skills:</span>
-<div class="skill-tags">
-<span class="skill-tag">Curiosity</span>
-<span class="skill-tag">Teaching</span>
-<span class="skill-tag">Technical Writing</span>
-<span class="skill-tag">Logical Thinking</span>
-</div>
-</div>
-</div>
+**Skills:** Curiosity, Teaching, Technical Writing, Logical Thinking
 
 ---
 
