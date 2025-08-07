@@ -1,0 +1,96 @@
+name: Generate CV PDF
+
+on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'index.markdown'
+      - '_layouts/default.html'
+      - 'assets/css/pdf-style.css'
+  workflow_dispatch:
+
+jobs:
+  generate-pdf:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.1'
+        bundler-cache: true
+        
+    - name: Build Jekyll site
+      run: |
+        bundle exec jekyll build
+        
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Install Puppeteer
+      run: |
+        npm install puppeteer
+        
+    - name: Generate PDF
+      run: |
+        node -e "
+        const puppeteer = require('puppeteer');
+        const fs = require('fs');
+        const path = require('path');
+        
+        (async () => {
+          const browser = await puppeteer.launch({
+            headless: true,
+            args: ['--no-sandbox', '--disable-setuid-sandbox']
+          });
+          
+          const page = await browser.newPage();
+          
+          // Load the built Jekyll site
+          const htmlPath = path.join(process.cwd(), '_site/index.html');
+          const htmlContent = fs.readFileSync(htmlPath, 'utf8');
+          
+          // Add PDF-specific styles
+          const pdfHtml = htmlContent.replace(
+            '</head>', 
+            '<link rel=\"stylesheet\" type=\"text/css\" href=\"assets/css/pdf-style.css\"><style>body{font-family:\"Times New Roman\",serif;line-height:1.4;color:#000;}.pdf-download{display:none !important;}</style></head>'
+          );
+          
+          await page.setContent(pdfHtml, { waitUntil: 'networkidle0' });
+          
+          await page.pdf({
+            path: '_site/vicente-munoz-cv.pdf',
+            format: 'A4',
+            margin: {
+              top: '1in',
+              right: '0.75in',
+              bottom: '1in',
+              left: '0.75in'
+            },
+            printBackground: true,
+            preferCSSPageSize: true
+          });
+          
+          await browser.close();
+          console.log('PDF generated successfully');
+        })();
+        "
+        
+    - name: Commit and push PDF
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add _site/vicente-munoz-cv.pdf
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Auto-update CV PDF [skip ci]"
+          git push
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

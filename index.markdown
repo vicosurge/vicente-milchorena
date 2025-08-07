@@ -1,6 +1,13 @@
 ---
 layout: default
 ---
+
+<div class="pdf-download" style="text-align: center; margin-bottom: 20px; padding: 15px; background: #f5f5f5; border-radius: 5px;">
+  <a href="vicente-munoz-cv.pdf" download="Vicente_Munoz_CV.pdf" style="display: inline-block; background: #007acc; color: white; padding: 10px 20px; text-decoration: none; border-radius: 3px; font-weight: bold;">
+    📄 Download PDF Version
+  </a>
+</div>
+
 # Curriculum Vitae
 
 Vicente Manuel Muñoz Milchorena
