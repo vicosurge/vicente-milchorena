@@ -200,6 +200,19 @@ Courses focused on world history, Mexican history, regional history, and relatio
 
 ---
 
+## Historical Research
+
+### Los lecheros de Dios. Molokanes en Baja California en la primera mitad del siglo XX | El Heraldo de Baja California
+
+*MARCH 2018*
+
+Two-part historical essay, originally written at the request of a Professor, on the Molokans who settled the Valle de Guadalupe in Baja California during the first half of the 20th century. Traces their origin, passage through the Transcaucasus, departure from Tsarist Russia, and eventual arrival in Baja California.
+
+- **Part I** — March 17, 2018
+- **Part II** — March 24, 2018
+
+---
+
 ## Certifications
 
 - [Microsoft Certified: Azure Fundamentals](https://learn.microsoft.com/en-us/users/vicentemanuelmuozmilchorena-2744/credentials/c5bac73c324f0b47)
