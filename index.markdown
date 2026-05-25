@@ -17,6 +17,7 @@ layout: default
 <p>E-mail: <a href="mailto:vicente.munoz@milchorena.com">vicente.munoz@milchorena.com</a></p>
 <p>LinkedIn: <a href="https://www.linkedin.com/in/vicente-milchorena/">linkedin.com/in/vicente-milchorena</a></p>
 <p>GitHub: <a href="https://github.com/vicosurge">github.com/vicosurge</a></p>
+<p>Fiction: <a href="https://digimente.milchorena.com">digimente.milchorena.com</a></p>
 </div>
 
 ---
