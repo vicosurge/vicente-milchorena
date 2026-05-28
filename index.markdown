@@ -218,6 +218,7 @@ Two-part historical essay, originally written at the request of a Professor, on 
 
 - [Microsoft Certified: Azure Fundamentals (AZ-900)](https://learn.microsoft.com/en-us/users/vicentemanuelmuozmilchorena-2744/credentials/c5bac73c324f0b47)
 - [Microsoft Certified: Azure AI Fundamentals (AI-900)](https://learn.microsoft.com/api/credentials/share/en-us/VicenteManuelMuozMilchorena-2744/DE7B24CC90348B35?sharingId=1F7F8D1C359B95D0)
+- [Microsoft 365 Certified: Copilot and Agent Administration Fundamentals (AB-900)](https://learn.microsoft.com/api/credentials/share/en-us/VicenteManuelMuozMilchorena-2744/8E89C7BC3DAC6EBF?sharingId=1F7F8D1C359B95D0)
 - [GitHub Certified: GitHub Foundations (GH-900)](https://learn.microsoft.com/api/credentials/share/en-us/VicenteManuelMuozMilchorena-2744/FED47CA0CB49BE25?sharingId=1F7F8D1C359B95D0)
 - [GitHub Certified: GitHub Administration (GH-500)](https://learn.microsoft.com/api/credentials/share/en-us/VicenteManuelMuozMilchorena-2744/5C2A6C336F80BD53?sharingId=1F7F8D1C359B95D0)
 - Torq 101
