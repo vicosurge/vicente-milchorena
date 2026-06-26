@@ -211,8 +211,8 @@ Courses focused on world history, Mexican history, regional history, and relatio
 
 Two-part historical essay, originally written at the request of a Professor, on the Molokans who settled the Valle de Guadalupe in Baja California during the first half of the 20th century. Traces their origin, passage through the Transcaucasus, departure from Tsarist Russia, and eventual arrival in Baja California.
 
-- **Part I** — March 17, 2018
-- **Part II** — March 24, 2018
+- **Part I**, March 17, 2018
+- **Part II**, March 24, 2018
 
 ---
 
