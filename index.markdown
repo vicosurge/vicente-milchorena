@@ -8,6 +8,8 @@ layout: default
   </a>
 </div>
 
+<p class="recruiters-note"><strong>Recruiters:</strong> please read my <a href="/recruiters/">notes for recruiters</a> before reaching out.</p>
+
 # Vicente Manuel Muñoz Milchorena
 
 <img src="assets/images/profile.png" alt="Vicente Muñoz" class="profile-photo">
